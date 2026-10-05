@@ -1,6 +1,1 @@
-# requirements.txt
-numpy
-pandas
-matplotlib
-jupyter
-pytest
+-e .
