@@ -6,7 +6,7 @@ Todo el código usa datos públicos o simulados.
 
 ## Estructura
 
-- `src/`: código reutilizable
+- `src/qf/`: código reutilizable (paquete `qf`)
 - `notebooks/`: notebooks de estudio y experimentos
 - `tests/`: tests con pytest
 
@@ -15,7 +15,7 @@ Todo el código usa datos públicos o simulados.
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate    |    macOS/Linux: source .venv/bin/activate
-pip install -e .   # instala las dependencias de pyproject.toml
+pip install -e ".[dev]"   # dependencias de pyproject.toml
 ```
 
 ## Uso
